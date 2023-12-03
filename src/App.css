@@ -1,0 +1,45 @@
+#drum-machine {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.drum-pads {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  gap: 2px;
+  height: 20%;
+  width: 20%;
+}
+
+.drum-pad {
+  background-color: aqua;
+  border-radius: 5px;
+  font-size: 3rem;
+  padding: 0.5rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.drum-pad:hover {
+  background-color: bisque;
+}
+
+.volume-control {
+  border: solid white 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.volume-control {
+  color: orange;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+#volume {
+  width: 100%;
+}
